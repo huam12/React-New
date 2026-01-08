@@ -3,7 +3,10 @@ import type { Metadata } from "next";
 import { Noto_Sans_Arabic, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
-
+<meta
+  name="google-site-verification"
+  content="xnRLtSp8C4Y9JoizxmUUg42YaJ4Q8y5tdhYVP4xpI1o"
+/>;
 const notoClassic = Noto_Sans_Arabic({
   subsets: ["arabic"],
   variable: "--font-sans",
@@ -15,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "أبو عواد | نجارة وديكورات خشبية فاخرة",
+  title: "أبو عواد للنجارة والديكورات الفاخرة",
   description:
     "شركة أبو عواد المتخصصة في أرقى أعمال النجارة والديكورات الخشبية والأثاث المخصص في المملكة العربية السعودية.",
   generator: "v0.app",
