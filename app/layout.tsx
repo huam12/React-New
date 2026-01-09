@@ -46,17 +46,17 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4"
+        />
+      </head>
       <body
         className={`${notoClassic.variable} ${geistMono.variable} font-sans antialiased`}
       >
         {children}
         <Analytics />
-        <head>
-          <meta
-            name="google-site-verification"
-            content="zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4"
-          />
-        </head>
       </body>
     </html>
   );
